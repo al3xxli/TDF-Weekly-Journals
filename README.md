@@ -2,4 +2,4 @@ This is a collection of my Obsidian notes for each class and week of TDF. You'll
 
 The file naming convention is mmddyyyy
 
-Typically I'll take daily notes each class, and then merge into weekly notes on Fridays.
+Typically I'll take daily notes each class, and write a weekly note which is focused on the assignment of the week and link to the daily notes for more journal monologue.
