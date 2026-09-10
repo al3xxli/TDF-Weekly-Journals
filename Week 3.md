@@ -18,7 +18,7 @@ Prompt: Create a letter writing assistant for students who need help communicati
 Output:
 A comprehensive dashboard with high customizability options, it addresses what is asked, breaks the email down into three steps which is manageable. The overall interface seems a bit complex, but it does capture the right amount of detail needed for a reputable email. I would prefer a more simplified UI but this is a good first step for an AI.
 
-![Week 3-01](https://raw.githubusercontent.com/al3xxli/TDF-Weekly-Journals/main/Week%203-01.png)
+![Week 3-02](https://raw.githubusercontent.com/al3xxli/TDF-Weekly-Journals/main/embeds/Week%203-02.png)
 
 ---
 Iterations:
