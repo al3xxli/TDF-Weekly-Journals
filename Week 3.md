@@ -13,13 +13,21 @@ The main assignment this class is to create a basic app in AI Studio. Something 
 3. Try with different design goals (other than a letter writing assistant)
 ---
 Initial Observation:
+Prompt: Create a letter writing assistant for students who need help communicating with their professors.
 
+Output:
+A comprehensive dashboard with high customizability options, it addresses what is asked, breaks the email down into three steps which is manageable. The overall interface seems a bit complex, but it does capture the right amount of detail needed for a reputable email. I would prefer a more simplified UI but this is a good first step for an AI.
+
+![[Pasted image 20260910122158.png]]
+
+---
+Iterations:
 
 Inputs:
 
-| Role Card                                                                             | User Journey | Test Prompt 1 | Test Prompt 2 | Test Prompt 3 |
-| ------------------------------------------------------------------------------------- | ------------ | ------------- | ------------- | ------------- |
-| Refer to final role card iteration from last week: [[UCB/TDF Weekly Journals/Week 2]] |              |               |               |               |
+| Role Card                                                                             | User Journey                                                                 | Test Prompt 1 | Test Prompt 2 | Test Prompt 3 |
+| ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------- | ------------- | ------------- |
+| Refer to final role card iteration from last week: [[UCB/TDF Weekly Journals/Week 2]] | The user should only need to input a maximum of three pieces of information  |               |               |               |
 
 
 Testing:
@@ -46,10 +54,13 @@ Now it's time to create something other than a letter-writing assistant! I'm cur
 | ----------------- | ------ | ---------------- | ----------------------------------------------- | ------ |
 | 8 - Alternate use |        | Gemini 3.8 Flash | React/Angular (update based on previous output) |        |
 
+---
 Now, the real question is: **are all these steps even neccessary?**
 For learning, yes. For outputs, not really.
-Case in point, I've actually been using an ATS Resume Optimizer that I created using Antigravity. The prompt was simply:
+Case in point, I've actually been using an ATS Resume Optimizer that I created using Antigravity. The prompt was:
 
 *"Attached are resume guidelines for optimizing ATS resumes for job hunting. I've also included a PDF resume which needs to be visually analysed as it is not ATS friendly. Build me a webapp which takes the resume attached and generates an ATS-friendly version. There must be a function to copy/paste or upload the position I'm applying to so the resume can align with the exact keywords (as outlined in the guidelines). Minimal interface, very clean and intuitive. Must have a download as .docx button. Make it deployable to Vercel."*
 
-And ta-da! The exact tool I needed. Not perfect, but suitable for the purpose. You can view it here:
+And ta-da! The exact tool I needed. Not perfect, but suitable for the purpose. You can view it here: www.ats-resume-tool.vercel.app
+
+
