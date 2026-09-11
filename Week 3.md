@@ -48,6 +48,7 @@ I'm personally very intrigued with the modern difference between React vs Angula
 | -------------------------------------------- | ---------------- | --------- | ------------------------------------------------------------------------------------------------------- |
 | 7 - framework exploration (my own curiosity) | Gemini 3.8 Flash | Angular   | ![Week 3-07](https://raw.githubusercontent.com/al3xxli/TDF-Weekly-Journals/main/embeds/Week%203-07.png) |
 
+---
 Now it's time to create something other than a letter-writing assistant! I've actually been using an ATS Resume Optimizer that I created using Antigravity. The following prompt was used with Gemini 3.8 Flash:
 
 *"Attached are resume guidelines for optimizing ATS resumes for job hunting. I've also included a PDF resume which needs to be visually analysed as it is not ATS friendly. Build me a webapp which takes the resume attached and generates an ATS-friendly version. There must be a function to copy/paste or upload the position I'm applying to so the resume can align with the exact keywords (as outlined in the guidelines). Minimal interface, very clean and intuitive. Must have a download as .docx button. Make it deployable to Vercel."*
@@ -55,3 +56,5 @@ Now it's time to create something other than a letter-writing assistant! I've ac
 And ta-da! The exact tool I needed. Not perfect, but suitable for the purpose. You can view it here: www.ats-resume-tool.vercel.app
 
 I personally prefer Antigravity over AI Studio, maybe it's the same framework (?) but working in Antigravity using my local files and pushing to github is a much faster process.
+
+I sent this to a classmate and gathered the following feedback:
