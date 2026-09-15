@@ -57,4 +57,10 @@ And ta-da! The exact tool I needed. Not perfect, but suitable for the purpose. Y
 
 I personally prefer Antigravity over AI Studio, maybe it's the same framework (?) but working in Antigravity using my local files and pushing to github is a much faster process.
 
-I sent this to a classmate and gathered the following feedback:
+I sent this to a classmate and gathered the following feedback, combined with my own tweaks during use:
+- Different job listings have different formats, so including an AI agent to parse all the information would be great (requires API key).
+- Have a PDF upload button to fix existing resume files.
+- Add a tracking log to save individual resumes and organize the progress of each application.
+- Make UI more minimal and intuitive, AI has a tendency to label and over-explain every function.
+
+You'll see that these functions have already been successfully deployed. I spent the entire weekend using the tool to apply for jobs, which has saved me lots of time compared to manually editing my resume each time.
