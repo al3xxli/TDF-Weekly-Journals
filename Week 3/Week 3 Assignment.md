@@ -1,4 +1,4 @@
-Please refer to [[UCB/TDF Weekly Journals/09082026]] and [[UCB/TDF Weekly Journals/09102026]] for the daily notes.
+Please refer to [[UCB/TDF Weekly Journals/Week 3/09082026]] and [[UCB/TDF Weekly Journals/Week 3/09102026]] for the daily notes.
 
 The main assignment this class is to create a basic app in AI Studio. Something simple with no agents:
 1. Create the letter writing assistant (refer to role card exercise) without the role card for initial observation.
@@ -27,7 +27,7 @@ Inputs:
 
 | Role Card                                                                             | User Journey                                                                                                                                                        | Test Prompt 1                                                 | Test Prompt 2                                       | Test Prompt 3                                                                                 |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Refer to final role card iteration from last week: [[UCB/TDF Weekly Journals/Week 2]] | Step 1: User inputs sender and recipient details.<br><br>Step 2: User selects letter type and tonality.<br><br>Step 3: User adds notes about specific circumstance. | *note: test prompts similar to the ones from week 2.*<br><br> | Do you think an email is the best way to reach him? | I feel really, really sick. I think I have a high fever and might need to go to the hospital. |
+| Refer to final role card iteration from last week: [[Week 2 Assignment]] | Step 1: User inputs sender and recipient details.<br><br>Step 2: User selects letter type and tonality.<br><br>Step 3: User adds notes about specific circumstance. | *note: test prompts similar to the ones from week 2.*<br><br> | Do you think an email is the best way to reach him? | I feel really, really sick. I think I have a high fever and might need to go to the hospital. |
 
 
 Testing:

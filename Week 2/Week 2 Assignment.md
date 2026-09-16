@@ -1,4 +1,4 @@
-Refer to [[UCB/TDF Weekly Journals/09012026]] and [[UCB/TDF Weekly Journals/09032026]] for the class-by-class notes and journalling.
+Refer to [[UCB/TDF Weekly Journals/Week 2/09012026]] and [[UCB/TDF Weekly Journals/Week 2/09032026]] for the class-by-class notes and journalling.
 
 The assignment this week is to reflect and iterate on the "role card" activity first developed in-class where my groupmates Evan and Yuwen improved an interaction between friends, while Adin and I took notes and observed their interaction. We are to take the role card and input the information into agent studio, observing the LLM behavior.
 
