@@ -14,4 +14,21 @@ ___
 
 ___
 
-Part 1:
+Part 1: Individual movement
+Running Joris' repo and following his predefined movements, I was easily able to get the elephant moving! Although the gestures are a little odd, so for the team assignment we'll need to make the poses more intuitive and responsive.
+
+Part 2: Environment!
+Before we tested team control, we wanted to create an environment and scenarios for our elephant to interact with so there's purpose to the movement and little milestones for us to work towards.
+
+Thinking of those clickbait mobile game ads (the tower defence type), we wanted our elephant to defend a watering hole from invading bananas by throwing oranges as ammo and building a fort. We added a coin mechanic for upgrades with speed and ammo upgrades etc.
+
+Part 3: Group control
+The biggest challenge was getting MediaPipe to detect 3 people consistently. We started off with the pose detector and will explore a combination of different MediaPipe inputs once we get more familiar with the interface. It took a good 3-4 hours to add different strategies for consistent detection and to calibrate movements.
+
+Strategies we implemented:
+1. Role assignment does not begin until 3 people are detected in the frame.
+2. P1 is always the leftmost person, P3 is the middle person, P2 is the rightmost person.
+3. Screen overlay with positional boundaries to ensure everyone is identified within their bounds.
+4. A Left/Right side indicator on the screen overlay as the computer camera actually mirrors the left/right position so controls get confusing if we keep yelling directions at each other.
+
+(Will add photo here later)
