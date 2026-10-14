@@ -1,3 +1,5 @@
+*Context: Weeks 5 and 6 were mainly separate projects and exercises to learn computer-vision basics before applying that learning to DigiPhant.*
+
 Group name: Just Chillin'
 Members: Alex Li, Ryanne Plaisance, Stephen Samuel Kwame Jaja
 
@@ -31,4 +33,19 @@ Strategies we implemented:
 3. Screen overlay with positional boundaries to ensure everyone is identified within their bounds.
 4. A Left/Right side indicator on the screen overlay as the computer camera actually mirrors the left/right position so controls get confusing if we keep yelling directions at each other.
 
-(Will add photo here later)
+
+![Peel Patrol test with the game and three-performer camera preview](../assets/digiphant/peel-patrol-test.png)
+
+*Group process PDF, p. 4: the earlier Peel Patrol interface. Capture date is not confirmed; included here as evidence of this development stage.*
+
+![Troubleshooting performer-to-control assignment in VS Code](../assets/digiphant/tracking-troubleshooting.png)
+
+*Group process PDF, p. 4: debugging role assignment. The PDF reports that separate player regions allowed all three performers to be recognized in Ryanne's reported test.*
+
+![The group trying different movement gestures together](../assets/digiphant/team-gesture-test.png)
+
+*Group process PDF, p. 1: physical gesture practice. The photo documents collaboration; its capture date is not confirmed.*
+
+The role ordering listed above describes this earlier iteration. The [October 13 system analysis](../Week%208/10132026.md) documents the later control mapping, including the move from a leg-lift jump to P3's peace sign.
+
+Related dated notes: [September 29](09292026.md) · [October 1](10012026.md).
