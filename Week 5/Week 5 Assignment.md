@@ -1,4 +1,4 @@
-*Context: Weeks 5 and 6 were mainly separate projects and exercises to learn computer-vision basics before applying that learning to DigiPhant.*
+These were some of my early computer-vision experiments, before we brought those ideas into DigiPhant.
 
 https://teachablemachine.withgoogle.com/
 
@@ -17,8 +17,4 @@ Training Files: [Link](https://drive.google.com/drive/folders/1PIsjDu4sH4eh_EtTp
 
 Journal Entry: The datasets were pretty easy to set up, since the camera is mounted to a fixed position, making it easier for the classifiers to detect changes. For the Shrimper, I put on different t-shirts and took videos to hopefully provide a robust level of data. The Hand Gestures needed more training data than the Shrimper because of low contrast against the background.
 
-## Related dated notes
-
-[September 22: seeing and feature representations](09222026.md) · [September 24: object detection and pose estimation](09242026.md)
-
-*Documentation note, October 14, 2026: the experiment descriptions above were already in this assignment. Their exact dates are not recorded; the links do not establish that experiments occurred on both lecture dates.*
+Class notes: [September 22](09222026.md) · [September 24](09242026.md).

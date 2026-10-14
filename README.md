@@ -1,44 +1,32 @@
 # TDF Weekly Journals — Alex Li
 
-This is my individual collection of class notes, design experiments, and weekly assignments, written in Obsidian and published to GitHub. Dated filenames use `mmddyyyy`. The group project documented here is **Chillin-Digiphant / DigiPhant Kart**, with Stephen Jaja and Ryanne Plaisance.
+[Our group process PDF](sources/Chillin-Digiphant-Process-Documentation.pdf) brings together the photos, diagrams, and story of how DigiPhant developed. I've included those visuals in the relevant entries below too.
 
-## Process documentation: Weeks 5–8
+These are my class notes and weekly assignments, written in Obsidian and shared here on GitHub. The filenames use `mmddyyyy`. For DigiPhant, I worked with Stephen Jaja and Ryanne Plaisance.
 
-Weeks 5 and 6 mainly document separate projects and exercises for learning computer-vision basics before applying that learning to DigiPhant. The later group project builds on that foundation; the earlier work is not all part of one continuous DigiPhant implementation.
+Weeks 5 and 6 were mostly smaller projects and exercises to learn computer vision before we brought those ideas into the group project. From there, we went through a few versions of the elephant game before arriving at DigiPhant Kart.
 
-| Week | Dated entries | Assignment / process evidence |
+## Weeks 5–8
+
+| Week | Class notes | Weekly assignment |
 | --- | --- | --- |
-| 5 · September 21–27 | [September 22](Week%205/09222026.md), [September 24](Week%205/09242026.md) | [Hand-gesture classifier and Shrimper](Week%205/Week%205%20Assignment.md): training setup, background contrast, and data comparison |
-| 6 · September 28–October 4 | [September 29](Week%206/09292026.md), [October 1](Week%206/10012026.md) | [Unity and team tracking](Week%206/Week%206%20Assignment.md): Peel Patrol, failed person detection, player regions, and troubleshooting photos |
-| 7 · October 5–11 | [October 6](Week%207/10062026.md), [October 8](Week%207/10082026.md) | [DigiPhant Kart](Week%207/Week%207%20Assignment.md): Rainbow Road reference, Unity scene, control decisions, and iteration log |
-| 8 · October 12–18 | [October 13 group reflection](Week%208/10132026.md), [October 15 — blank note](Week%208/10152026.md) | [Process documentation](Week%208/Week%208%20Assignment.md): group reflection, final slides, future UI ideas, and two system diagrams |
+| 5 | [September 22](Week%205/09222026.md) · [September 24](Week%205/09242026.md) | [Hand gestures and Shrimper](Week%205/Week%205%20Assignment.md) |
+| 6 | [September 29](Week%206/09292026.md) · [October 1](Week%206/10012026.md) | [Unity, MediaPipe, and group control](Week%206/Week%206%20Assignment.md) |
+| 7 | [October 6](Week%207/10062026.md) · [October 8](Week%207/10082026.md) | [Building DigiPhant Kart](Week%207/Week%207%20Assignment.md) |
+| 8 | [October 13](Week%208/10132026.md) · [October 15 — blank for now](Week%208/10152026.md) | [Group reflection and final slides](Week%208/Week%208%20Assignment.md) |
 
-## Two analyses of how the system works
+The October 15 note is ready for the next class, but I still need to write that entry.
 
-1. [Three players controlling one kart](Week%208/10132026.md#system-analysis-1-three-players-one-kart): webcam → tracking and calibration → separate player signals → Unity → feedback to the players.
-2. [Lap progression](Week%208/10132026.md#system-analysis-2-lap-progression-and-game-state): lap-completion events → changed hazards and music → continued play or race-finish feedback, with orange inventory and restart rules.
+## How the system works
 
-Both diagrams are embedded as readable PNGs, with analysis and text descriptions in the journal. They explain system behavior, not just visual appearance.
+Both system diagrams are in the October 13 entry:
 
-## Requirement coverage and dates
+- [Three players, one kart](Week%208/10132026.md#system-analysis-1-three-players-one-kart): how the camera tracks us, how our movements become controls, and how the game gives us feedback.
+- [Lap progression](Week%208/10132026.md#system-analysis-2-lap-progression-and-game-state): how obstacles, music, and game state change as we race.
 
-| Requirement | Evidence / status |
-| --- | --- |
-| At least two dated design entries per calendar week, Weeks 5–8 | Weeks 5–7 each include two dated learning/project notes plus weekly assignments. Weeks 5–6 mainly cover foundational computer-vision projects. Week 8 has the October 13 group reflection; **October 15 is intentionally blank and still needs its entry**. A blank file does not count as a completed journal entry. |
-| Text and images showing process and iteration | Six extracted PDF photos/screenshots, restored lecture/classifier images, before/after game views, and written failure/change/observation comparisons |
-| At least two diagrammatic system analyses | Both PDF diagrams embedded and explained in the October 13 entry |
-| Clear thinking, experimentation, and evolution | Classifier data comparison; two-person tracking failure and region changes; physical jump → leg lift → peace sign; Peel Patrol → racing |
-| Individual submission | This is Alex Li's journal. Shared photos and diagrams are credited to the group process document. |
+I added the PDF images and some looking-back notes on October 14. The captions give the source pages, and later screenshots are labeled so they aren't confused with what we'd finished on an earlier date. The older control descriptions are still there because we changed them as we went.
 
-Retrospective additions were assembled October 14, 2026. An entry's date is not automatically the date of a photo or experiment. The October 6 inspiration image is dated by its source; other photos have unconfirmed capture dates. Earlier control descriptions remain visible as historical iterations. Reported team testing is distinguished from documented rules and screenshots.
-
-## Included sources and assets
-
-- [Complete group process PDF](sources/Chillin-Digiphant-Process-Documentation.pdf)
-- [Visual source list with page references](assets/digiphant/README.md)
-- [DigiPhant implementation repository](https://github.com/al3xxli/Chillin-Digiphant)
-
-Images use standard relative Markdown links and are stored inside this repository. Obsidian and GitHub can display the same files without access to my Downloads folder or a separate vault. To publish updates, include the journal Markdown, `assets/`, `embeds/`, and `sources/` in the same Git push. The repository must remain public or the assessors must have viewing access.
+The PDF and images are saved in this repository, so they should open directly from GitHub. The [visual source list](assets/digiphant/README.md) has the page references, and the [DigiPhant repository](https://github.com/al3xxli/Chillin-Digiphant) has the project itself.
 
 ## Earlier weeks
 

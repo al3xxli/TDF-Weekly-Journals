@@ -1,4 +1,6 @@
-*Context: Weeks 5 and 6 were mainly separate projects and exercises to learn computer-vision basics before applying that learning to DigiPhant.*
+[Our group process PDF](../sources/Chillin-Digiphant-Process-Documentation.pdf) has the photos, diagrams, and longer account of how the project developed.
+
+Weeks 5 and 6 were mostly about learning computer vision through smaller projects and exercises. This is where that started feeding into our group elephant project.
 
 Group name: Just Chillin'
 Members: Alex Li, Ryanne Plaisance, Stephen Samuel Kwame Jaja
@@ -36,16 +38,16 @@ Strategies we implemented:
 
 ![Peel Patrol test with the game and three-performer camera preview](../assets/digiphant/peel-patrol-test.png)
 
-*Group process PDF, p. 4: the earlier Peel Patrol interface. Capture date is not confirmed; included here as evidence of this development stage.*
+*Our earlier Peel Patrol setup, with the game and camera preview together (group PDF, p. 4).*
 
 ![Troubleshooting performer-to-control assignment in VS Code](../assets/digiphant/tracking-troubleshooting.png)
 
-*Group process PDF, p. 4: debugging role assignment. The PDF reports that separate player regions allowed all three performers to be recognized in Ryanne's reported test.*
+*Debugging who was controlling what. Ryanne reported that the separate player regions helped it recognize all three of us (group PDF, p. 4).*
 
 ![The group trying different movement gestures together](../assets/digiphant/team-gesture-test.png)
 
-*Group process PDF, p. 1: physical gesture practice. The photo documents collaboration; its capture date is not confirmed.*
+*Trying the gestures together (group PDF, p. 1). These photos were added later; we don't have their exact capture dates.*
 
-The role ordering listed above describes this earlier iteration. The [October 13 system analysis](../Week%208/10132026.md) documents the later control mapping, including the move from a leg-lift jump to P3's peace sign.
+We kept changing the controls after this. By the [October 13 version](../Week%208/10132026.md), jumping had moved from a leg lift to P3's peace sign.
 
 Related dated notes: [September 29](09292026.md) · [October 1](10012026.md).
