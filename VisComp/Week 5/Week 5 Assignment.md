@@ -2,7 +2,7 @@ These were some of my early computer-vision experiments, before we brought those
 
 https://teachablemachine.withgoogle.com/
 
-![Week 5 Assignment-01](../embeds/Week%205%20Assignment-01.png)
+![Week 5 Assignment-01](Week%205%20Assignment-01.png)
 
 Trained Object Classifier: Hand Gestures
 This one works by identifying two simple hand gestures, peace✌️ and thumbs up👍.
@@ -17,4 +17,4 @@ Training Files: [Link](https://drive.google.com/drive/folders/1PIsjDu4sH4eh_EtTp
 
 Journal Entry: The datasets were pretty easy to set up, since the camera is mounted to a fixed position, making it easier for the classifiers to detect changes. For the Shrimper, I put on different t-shirts and took videos to hopefully provide a robust level of data. The Hand Gestures needed more training data than the Shrimper because of low contrast against the background.
 
-Class notes: [September 22](09222026.md) · [September 24](09242026.md).
+Class notes: [September 22](UCB/TDF%20Weekly%20Journals/VisComp/Week%205/09222026.md) · [September 24](UCB/TDF%20Weekly%20Journals/VisComp/Week%205/09242026.md).

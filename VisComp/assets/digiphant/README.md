@@ -1,6 +1,6 @@
 # DigiPhant visual sources
 
-All eight visuals below come from the [supplied group process document](../../sources/Chillin-Digiphant-Process-Documentation.pdf), dated October 13, 2026. Photos and screenshots were extracted at their original embedded resolution. The two vector diagrams were rendered at 200 dpi and cropped around the title, diagram, and operating conditions; their content was not redrawn.
+All eight visuals below come from the [supplied group process document](Chillin-Digiphant-Process-Documentation.pdf), dated October 13, 2026. Photos and screenshots were extracted at their original embedded resolution. The two vector diagrams were rendered at 200 dpi and cropped around the title, diagram, and operating conditions; their content was not redrawn.
 
 | File | PDF page | What it documents |
 | --- | --- | --- |

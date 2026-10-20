@@ -1,4 +1,4 @@
-[Our group process PDF](../sources/Chillin-Digiphant-Process-Documentation.pdf) has the photos, diagrams, and longer account of how the project developed.
+[Our group process PDF](Chillin-Digiphant-Process-Documentation.pdf) has the photos, diagrams, and longer account of how the project developed.
 
 Weeks 5 and 6 were mostly about learning computer vision through smaller projects and exercises. This is where that started feeding into our group elephant project.
 
@@ -36,18 +36,18 @@ Strategies we implemented:
 4. A Left/Right side indicator on the screen overlay as the computer camera actually mirrors the left/right position so controls get confusing if we keep yelling directions at each other.
 
 
-![Peel Patrol test with the game and three-performer camera preview](../assets/digiphant/peel-patrol-test.png)
+![Peel Patrol test with the game and three-performer camera preview](peel-patrol-test.png)
 
 *Our earlier Peel Patrol setup, with the game and camera preview together (group PDF, p. 4).*
 
-![Troubleshooting performer-to-control assignment in VS Code](../assets/digiphant/tracking-troubleshooting.png)
+![Troubleshooting performer-to-control assignment in VS Code](tracking-troubleshooting.png)
 
 *Debugging who was controlling what. Ryanne reported that the separate player regions helped it recognize all three of us (group PDF, p. 4).*
 
-![The group trying different movement gestures together](../assets/digiphant/team-gesture-test.png)
+![The group trying different movement gestures together](team-gesture-test.png)
 
 *Trying the gestures together (group PDF, p. 1). These photos were added later; we don't have their exact capture dates.*
 
-We kept changing the controls after this. By the [October 13 version](../Week%208/10132026.md), jumping had moved from a leg lift to P3's peace sign.
+We kept changing the controls after this. By the [October 13 version](UCB/TDF%20Weekly%20Journals/VisComp/Week%208/10132026.md), jumping had moved from a leg lift to P3's peace sign.
 
-Related dated notes: [September 29](09292026.md) · [October 1](10012026.md).
+Related dated notes: [September 29](UCB/TDF%20Weekly%20Journals/VisComp/Week%206/09292026.md) · [October 1](UCB/TDF%20Weekly%20Journals/VisComp/Week%206/10012026.md).
